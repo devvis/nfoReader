@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("nfoReader")]
-[assembly: AssemblyCopyright("Copyright © devvis 2014")]
+[assembly: AssemblyCopyright("Copyright © devvis  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

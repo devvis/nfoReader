@@ -24,7 +24,7 @@ namespace nfoReader
             InitializeComponent();
             this.nfoBox.KeyDown += new KeyEventHandler(nfo_KeyDown);
             this.Text = "devvis nfo-reader - v" + version;
-            
+
             if (nfoPath != "")
             {
                 readNfoFromPath(nfoPath);
@@ -59,6 +59,10 @@ namespace nfoReader
             switch (keyData)
             {
                 case Keys.F1:
+                    /*
+                    settingsWnd wnd = new settingsWnd();
+                    wnd.Show();
+                    */
                     MessageBox.Show("devvis nfo-reader v"+version+@"
 
 A simple program that displays nfo-files the way they should be displayed.
